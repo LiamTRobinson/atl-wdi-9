@@ -10,33 +10,31 @@
 
 // 1. true || false 
 //var resOne = true;
-var resOne;
+var resOne = true;
 
 // 2. null || ''
 //var resTwo = falsey;
-var resTwo;
+var resTwo = false;
 
 // 3. 'false' && true
 //var resThree = true;
-var resThree;
+var resThree = true;
 
 // 4. !!0
 //var resFour = false;
-var resFour;
+var resFour = false;
 
 // 5. !null && !undefined
 //var resFive = true;
-var resFive;
+var resFive = true;
 
 /// Flow Control ///
 
 // 6. Write a `while` loop that increases `resSix` by 23 until `resSix` is five
 //    digits long. (Hint: take a look at the .toString() method)
 var resSix = 5;
-console.log(resSix.toString().length);
-
 while (resSix.toString().length < 5){
-  resSix+=23;
+  resSix += 23;
 }
 console.log(resSix)
 
@@ -44,36 +42,41 @@ console.log(resSix)
 //    below 95, decreases it by 7 when it's strictly above 105, and stops as
 //    soon as `resSeven` equals or falls between those two values.
 var resSeven = 65;
-
-do {
-  resSeven === 95 || 105; 95<resSeven< 105;
+while (resSeven < 95 || resSeven > 105){
+  if (resSeven < 95) {
+    resSeven += 12;
+  }
+  else if (resSeven > 105){
+    resSeven -= 7;
+  }
 }
-while (resSeven < 95){
-    resSeven =-7
-}
-while (resSeven > 105) {
-resSeven+=12
-}
-{
-  console.log(resSeven)
-}
-
 // 8. Write a `for` loop that counts from 0 (inclusive) to 1857 (exclusive) and
 //    calculates the sum of all of those numbers, storing the result in the
 //    variable `resEight`.
-var resEight;
-// Replace This Comment With Your Code
+var resEight = 0;
+for (var i = 0; i < 1857; i++) {
+  resEight = resEight + i;
+}
+console.log(resEight);
 
 // 9. Using a `for` loop, calculate the sum of all multiples of 7 between 0
 //    (inclusive) and 1000 (exclusive); store the result in the variable
 //    `resNine`.
-var resNine;
-// Replace This Comment With Your Code
+var resNine = 0;
+for (var i = 0; i < 1000; i++){
+  if (i % 7 === 0){
+    resNine += i;
+  }
+}
+console.log(resNine);
 
 // 10. Using whatever code you like, calculate n^n for each value from n from 1
 //     to 10 (both inclusive), and store the sum in the variable `resTen`.
-var resTen;
-// Replace This Comment With Your Code
+var resTen = 0;
+for (var i = 1; i <= 10; i++) {
+  resTen += i * i;
+}
+console.log(resTen);
 
 /// DO NOT EDIT BELOW THIS LINE ///
 module.exports = {
