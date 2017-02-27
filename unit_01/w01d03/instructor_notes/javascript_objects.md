@@ -33,7 +33,7 @@ Objects in JavaScript
 
 ### What is an object? (5m)
 
-I was thinking about introing this lesson by discussing Ariel's Secret Grotto of human objects, but decided just to continue on the them that I began in the last lesson...  In the last lesson, I asked you think about 5 objects that define you.  You added these items to an array and were able to iterate over them/console.log them.  But there wasn't any detail given about the items, we just stated their names.  Objects can help us out with that.
+I was thinking about intro-ing this lesson by discussing Ariel's Secret Grotto of human objects, but decided just to continue on the theme that I began in the last lesson...  In the last lesson, I asked you to think about 5 objects that define you.  You added these items to an array and were able to iterate over them/console.log them.  But there wasn't any detail given about the items, we just stated their names.  Objects can help us out with that.
 
 * Objects are a type of data structure that is nearly universal across programming languages, although they may have different names in different languages (in Python they are called a dictionary, in Ruby they are called a hash).
 * In JavaScript, an object is a type of key-value store, or a way to group pairs of keys and values together
@@ -47,7 +47,7 @@ For example, a puppy has properties, a breed/type, the color of his/her fur, a s
 
 #### Object literal syntax
 
-Strings are defined in 'quotes', arrays are in ['square bracets'], objects follow the same lexical pattern but use `{curlyBraces: 'and are structured as key/value pairs'}`, the `key`/name comess before the colon and the `value`, after the colon.
+Strings are defined in 'quotes', arrays are in ['square bracets'], objects follow the same lexical pattern but use `{curlyBraces: 'and are structured as key/value pairs'}`, the `key`/name comes before the colon and the `value`, after the colon.
 
 Like arrays, these key-value pairs are comma separated!
 
@@ -70,7 +70,7 @@ person.name;
 => "Danny"
 ```
 
-You can define or change a property by assigning it a value using `=` as you would a normal variable.
+You can define or change a property by assigning it a value using the assignment operator `=` as you would a normal variable.
 
 ```javascript
 var person = {
@@ -85,7 +85,7 @@ person.name;
 => "John"
 ```
 
-## Create an object with properties
+## We Do: Create an object with properties
 
 We are going to create an object `classroom` that contains the properties `name` and `campus`:
 
@@ -163,7 +163,7 @@ var classroom = {
 };
 ```
 
-**EXERCISE**: How do we ask for values in an object? How do we call functions?
+**How do we ask for values in an object? How do we call functions?**
 
 To call the method, we add a pair of parentheses at the end, in order to execute it:
 
