@@ -26,9 +26,24 @@ var transmogrifier = function(x, y, z) {
 // about punctuation.
 
 var wordReverse = function(x) {
-	var newStr = "";
-	for (i = x.length - 1; i >= 0; i--) {
-		newStr += x.charAt(i);
+	var array = [];
+ 	var result = "";
+  	for (var i = x.length - 1; i >= 0; i--) {
+	    if (x.charAt(i) === " ") {
+	      var newStr = x.slice(x.lastIndexOf(x.charAt(i))+1);
+	      array.push(newStr);
+	      x = x.slice(0, x.lastIndexOf(x.charAt(i)));
+	    }
+	    else if (i === 0) {
+	      var newStr = x.slice(0);
+	      array.push(newStr);
+	    }
+	    else {
+	    }
 	}
-	return newStr;
+  	for (var i = 0; i < array.length; i++){
+  		result += array[i] + " ";
+  	}
+  	result = result.slice(0, result.length - 1);
+  	return result;
 }

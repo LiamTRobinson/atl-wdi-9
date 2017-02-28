@@ -77,7 +77,7 @@ var reverseString = function (x){
 		newStr += x.charAt(i);
 	}
 	return newStr;
-};
+}
 
 
 // Question 7
@@ -108,7 +108,13 @@ function filterLongWords (x, i) {
 
 // Bonus 1
 
-
+String.prototype.reverseString = function (){
+	var newStr = "";
+	for (var i = this.length - 1; i >= 0; i--) {
+		newStr += this.charAt(i);
+	}
+	return newStr;
+}
 
 // Bonus 2
 function charactersOccurencesCount(x) {
