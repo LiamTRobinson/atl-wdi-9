@@ -60,13 +60,36 @@ track of whether tasks have been completed, it will also keep track of
 how long each task took to complete. Tasks can be grouped into 'projects' to
 keep them organized.
 
-> Answer here
+This to-do list has a set of tasks that are grouped into projects. Each task will log whether a task has been completed, the time it took to complete, and projected time to complete the task. Each project will contain a set of tasks, a projected time for completion, whether it has been completed, and the actual time it took for completion.
+
+Each task has:
+  -a name
+  -a projected time for completion
+  -a boolean for completion
+  -an actual time for completion
+Each project has:
+  -a name
+  -a list of tasks
+  -projected time for completion
+  -a boolean for completion
+  -an actual time for completion
 
 ### 2. Photo Sharing App
 
 In this app, users can upload photos to their accounts and share them with others. These photos can be grouped into albums.
 
-> Answer here
+Photos are for memories, and with that being understood, each photo should have a date taken, a name, and a short description. The albums will organize photos into groups and should contain a list of photos, the number of photos in the album, a name, a last-modified date and a short description.
+
+Photos will have:
+  -name
+  -description
+  -date taken
+Albums will have:
+  -name
+  -description
+  -number of items in album
+  -list of photos
+  -date last modified
 
 ### 3. Home Automation Manager
 
@@ -75,7 +98,14 @@ track of the time and temperature of the house that it monitors, and use that
 information to turn on and off different lights and adjust the thermostat up
 and down.
 
-> Answer here
+This app will need to store data on the house's current settings and preferred settings by room. The rooms will store data on current time, current temperature, setting times, and preferred settings.
+
+Rooms will have:
+  -current time
+  -current temperature
+  -list each hour of the day
+  -preferred light settings for each hour
+  -preferred temp settings for each hour
 
 ### 4. Sneaker Store
 
@@ -83,7 +113,21 @@ This app will allow customers to browse a list of products (sneakers, in this
 case), add those products to a cart, and save that cart as a past order once the
 purchase is complete.
 
-> Answer here
+This app will need to store data on shoes offered, shoes in cart, and order history. The shoes offered will need size options, brand, price, description, and color options. Each shoe in the cart will need to display price, shipping options, and quantity remaining. Each shoe in the order history will need to display all the same information as shoes offered as well as the rating out of 5 the customer assigns it. We can group these with shoes offered by creating a value for whether or not the customer has ordered it.
+
+Shoes offered will have:
+  -size
+  -brand
+  -price
+  -description
+  -color option
+  -ordered before or not
+  -rating
+
+Shoes in cart will have:
+  -price
+  -shipping options
+  -quantity remaining
 
 ## Representing Abstractions in Code
 
@@ -139,7 +183,9 @@ var exampleLine = {
 
 What are some advantages and disadvantages of choosing these representations? Please give at least one example of each.
 
-> Answer here
+Advantages: A passenger can use the app to see how many stops they have to go from their current stop, assuming that the app can inverse order depending on travel direction.  The short descriptions will also help them better understand where they are.
+
+Disadvantages: There is no average time for travel and in this day and age everyone needs precise knowledge of when they will be sommewhere. A passenger will not know what time to board a train to get where they need to go.
 
 ### 6. Doctor Appointment App
 
@@ -242,7 +288,7 @@ Under what circumstances might one representation be a better choice than the
 other? Are there any circumstances in which the other representation might be
 the better choice?
 
-> Answer here
+The advantage to the former is that it will be easier to see when a given doctor is available and when he is not.  The advantage to the latter is that it will be easier to view a list of all appointments for a given day. The disadvantages are that each doesn't have the advantage of the other. For clerical staff, having a list of all appointments by date and time would be optimal (the latter), and for customers, viewing the availability of their preferred doctor would be optimal (the former).
 
 ## Tying It Together
 
@@ -253,13 +299,30 @@ You've been tasked with building an in-browser tic-tac-toe game.
 a.  What are some possible entities that your application might use to model its
     data? Please pick at least two, with at least two properties apiece.
 
-  > Answer here
+  Board:
+    -row
+    -column
+    -diagonal
+  Cell:
+    -position
+    -value
 
 b.  How might those entities be represented in JavaScript code?
 
-  > Answer here
+  var Board = {
+    row: {
+      cell: {
+        position: 1a,
+        value: null
+      },
+      cell: {
+        position: 2a,
+        value: x
+      },
+    }
+  }
 
 c.  Justify your choices in a) and b). Why these entities? Why these
     representations?
 
-  > Answer here
+Containing cells in a boar makes it so we can check for like values in each column, row, and diagonal to determine currently available moves and when there is a winner or a tie.
