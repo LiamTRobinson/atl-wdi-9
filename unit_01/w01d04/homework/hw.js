@@ -11,7 +11,16 @@
 // Output: the sum of the numbers that were passed in
 // Edge Case: If the array is empty, return 0
 var sumOfNums = function(numsArray){
-  // Your Code Here
+  var sum = 0;
+  if (numsArray.length > 0){
+    for(var i =0; i < numsArray.length; i++) {
+        sum += numsArray[i];
+    }
+  return sum;
+  }
+  else {
+    return 0;
+  }
 };
 
 // #2
@@ -19,7 +28,15 @@ var sumOfNums = function(numsArray){
 // Output: an array of the numbers from the first array that are strictly
 //         greater (i.e. greater than but not equal to) than 10
 var numsGreaterThanTen = function(numsArray){
-  // Your Code Here
+  var newArray = [];
+  for (var i = 0; i < numsArray.length; i++){
+    if (numsArray[i] > 10){
+      newArray.push(numsArray[i]);
+    }
+    else{
+    }
+  }
+  return newArray;
 };
 
 // #3
@@ -28,14 +45,34 @@ var numsGreaterThanTen = function(numsArray){
 //         `false` otherwise
 // Edge Case: If the input array is empty, the function should return `true`.
 var allGreaterThanTen = function(numsArray){
-  // Your Code Here
+  if (numsArray.length > 0) {
+    for (var i = 0; i < numsArray.length; i++){
+      if (numsArray[i] > 10) {
+      }
+      else {
+        return false;
+      }
+    }
+    return true;
+  }
+  else {
+    return true;
+  }
 };
 
 // #4
 // Input: an array of words
 // Output: an array of all words from the first array with five or more letters
 var wordsWithAtLeastFiveLetters = function(words){
-  // Your Code Here
+  var newArray = [];
+  for (var i = 0; i < words.length; i++){
+    if (words[i].length >= 5){
+      newArray.push(words[i]);
+    }
+    else {
+    }
+  }
+  return newArray;
 };
 
 // #5
@@ -44,7 +81,19 @@ var wordsWithAtLeastFiveLetters = function(words){
 //          `false` otherwise
 // Edge Case: If the array is empty, the function should return `true`.
 var allStartingWithA = function(words){
-  // Your Code Here
+  if (words.length > 0){
+    for (var i = 0; i < words.length; i++) {
+      if (words[i].charAt(0) === "a"){
+      }
+      else {
+        return false;
+      }
+    }
+    return true;
+  }
+  else {
+    return true;
+  }
 };
 
 // #6
@@ -52,7 +101,14 @@ var allStartingWithA = function(words){
 // Output: `true` if there are ANY words that start with the letter 'b'
 //          (case-insensitive), `false` otherwise
 var anyStartingWithB = function(words){
-  // Your Code Here
+  for (var i = 0; i < words.length; i++) {
+    if (words[i].charAt(0) === "b") {
+      return true;
+    }
+    else {
+    }
+  }
+  return false;
 };
 
 // #7
@@ -62,7 +118,39 @@ var anyStartingWithB = function(words){
 //    Assume that vowels are 'a', 'e', 'i', 'o', and 'u' (NOT 'y')
 // Edge Case: If `n` is less than zero, return `null`.
 var hasAtLeastNVowels = function(word, n){
-  // Your Code Here
+  var array = [];
+  if (n >= 0){
+    for (var i = 0; i < word.length; i++){
+      switch (word.charAt(i)) {
+        case "a":
+          array.push(word.charAt(i));
+          break;
+        case "e":
+          array.push(word.charAt(i));
+          break;
+        case "i":
+          array.push(word.charAt(i));
+          break;
+        case "o":
+          array.push(word.charAt(i));
+          break;
+        case "u":
+          array.push(word.charAt(i));
+          break;
+        default:
+          break;
+      }
+    }
+    if (array.length >= n){
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  else {
+    return null;
+  }
 };
 
 // #8
@@ -70,7 +158,22 @@ var hasAtLeastNVowels = function(word, n){
 // Output: an array of words from the original array that have at least two
 //          vowels
 var wordsWithAtLeastTwoVowels = function(words){
-  // Your Code Here
+  var result = [];
+  loopstart:
+  for (var i = 0; i < words.length; i++) {
+    for (var j = 0; j < words[i].length; j++) {
+      if (words[i].charAt(j) === "a" || words[i].charAt(j) === "e" || words[i].charAt(j) === "i" || words[i].charAt(j) === "o" || words[i].charAt(j) === "u"){
+        var word = words[i].replace(words[i].charAt(j), "");
+        for (var k = 0; k < word.length; k++) {
+          if (word.charAt(k) === "a" || word.charAt(k) === "e" || word.charAt(k) === "i" || word.charAt(k) === "o" || word.charAt(k) === "u") {
+            result.push(words[i]);
+            continue loopstart;
+          }
+        }
+      }
+    }
+  }
+  return result;
 };
 
 // #9
@@ -78,7 +181,33 @@ var wordsWithAtLeastTwoVowels = function(words){
 // Output: `true` if ALL words have two or more vowels, `false` otherwise
 // Edge Case: If the array is empty, the function should return `true`.
 var allHaveAtLeastTwoVowels = function(words){
-  // Your Code Here
+  if (words.length > 0) {
+    var result = [];
+    var numOfVowels = [];
+    loopstart:
+    for (var i = 0; i < words.length; i++) {
+      for (var j = 0; j < words[i].length; j++) {
+        if (words[i].charAt(j) === "a" || words[i].charAt(j) === "e" || words[i].charAt(j) === "i" || words[i].charAt(j) === "o" || words[i].charAt(j) === "u"){
+          var word = words[i].replace(words[i].charAt(j), "");
+          for (var k = 0; k < word.length; k++) {
+            if (word.charAt(k) === "a" || word.charAt(k) === "e" || word.charAt(k) === "i" || word.charAt(k) === "o" || word.charAt(k) === "u") {
+              result.push(words[i]);
+              continue loopstart;
+            }
+          }
+        }
+      }
+    }
+    if (result.length === words.length){
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  else {
+    return true;
+  }
 };
 
 // #10
@@ -86,7 +215,28 @@ var allHaveAtLeastTwoVowels = function(words){
 // Output: `true` if there are ANY words have two or more vowels,
 //          `false` otherwise.
 var anyHaveAtLeastTwoVowels = function(words){
-  // Your Code Here
+    var result = [];
+    var numOfVowels = [];
+    loopstart:
+    for (var i = 0; i < words.length; i++) {
+      for (var j = 0; j < words[i].length; j++) {
+        if (words[i].charAt(j) === "a" || words[i].charAt(j) === "e" || words[i].charAt(j) === "i" || words[i].charAt(j) === "o" || words[i].charAt(j) === "u"){
+          var word = words[i].replace(words[i].charAt(j), "");
+          for (var k = 0; k < word.length; k++) {
+            if (word.charAt(k) === "a" || word.charAt(k) === "e" || word.charAt(k) === "i" || word.charAt(k) === "o" || word.charAt(k) === "u") {
+              result.push(words[i]);
+              continue loopstart;
+            }
+          }
+        }
+      }
+    }
+    if (result.length > 0){
+      return true;
+    }
+    else {
+      return false;
+    }
 };
 
 // #11
@@ -95,7 +245,33 @@ var anyHaveAtLeastTwoVowels = function(words){
 //          `false` otherwise
 // Edge Case: If the array is empty, the function should return `true`.
 var noneHaveTwoOrMoreVowels = function(words){
-  // Your Code Here
+  if (words.length > 0) {
+    var result = [];
+    var numOfVowels = [];
+    loopstart:
+    for (var i = 0; i < words.length; i++) {
+      for (var j = 0; j < words[i].length; j++) {
+        if (words[i].charAt(j) === "a" || words[i].charAt(j) === "e" || words[i].charAt(j) === "i" || words[i].charAt(j) === "o" || words[i].charAt(j) === "u"){
+          var word = words[i].replace(words[i].charAt(j), "");
+          for (var k = 0; k < word.length; k++) {
+            if (word.charAt(k) === "a" || word.charAt(k) === "e" || word.charAt(k) === "i" || word.charAt(k) === "o" || word.charAt(k) === "u") {
+              result.push(words[i]);
+              continue loopstart;
+            }
+          }
+        }
+      }
+    }
+    if (result.length === 0){
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  else {
+    return true;
+  }
 };
 
 // #12
@@ -105,7 +281,13 @@ var noneHaveTwoOrMoreVowels = function(words){
 // e.g. given ['cat', 'horse', 'elephant'],
 //      return { cat: 3, horse: 5, elephant: 8}
 var buildObjectFromWords = function(words){
-  // Your Code Here
+  var obj = {};
+  for (var i = 0; i < words.length; i++){
+    var key = words[i];
+    var value = words[i].length;
+    obj[key] = value;
+  }
+  return obj;
 };
 
 
