@@ -183,7 +183,6 @@ var wordsWithAtLeastTwoVowels = function(words){
 var allHaveAtLeastTwoVowels = function(words){
   if (words.length > 0) {
     var result = [];
-    var numOfVowels = [];
     loopstart:
     for (var i = 0; i < words.length; i++) {
       for (var j = 0; j < words[i].length; j++) {
@@ -216,7 +215,6 @@ var allHaveAtLeastTwoVowels = function(words){
 //          `false` otherwise.
 var anyHaveAtLeastTwoVowels = function(words){
     var result = [];
-    var numOfVowels = [];
     loopstart:
     for (var i = 0; i < words.length; i++) {
       for (var j = 0; j < words[i].length; j++) {
@@ -247,7 +245,6 @@ var anyHaveAtLeastTwoVowels = function(words){
 var noneHaveTwoOrMoreVowels = function(words){
   if (words.length > 0) {
     var result = [];
-    var numOfVowels = [];
     loopstart:
     for (var i = 0; i < words.length; i++) {
       for (var j = 0; j < words[i].length; j++) {

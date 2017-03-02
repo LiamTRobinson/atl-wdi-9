@@ -68,6 +68,8 @@ clock as an argument.
 
 > Under what conditions will the crawler make it all the way across the screen?
 
+When the screen is less than or equal to 1000px.
+
 ### Testing Your Work
 
 A set of automated tests, written in the [Mocha.js](https://mochajs.org/)
