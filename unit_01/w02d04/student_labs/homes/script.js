@@ -12,6 +12,7 @@ $(function() {
   	$("#showHomes").on("click", function(){
   		$("tbody tr").fadeIn(1000).show();
   	})
+
 	$("#addHome").removeClass("btn-danger").addClass("btn-success");
 	$("h1").addClass("text-center");
 	$newLink.addClass("text-center").appendTo("body");

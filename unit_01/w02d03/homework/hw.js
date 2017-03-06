@@ -18,53 +18,95 @@ const Stopwatch = {
   laps: [],
   // DO NOT EDIT ABOVE THIS LINE
   advanceTenMillisecs: function(){
-    // Your Code Here
+    this.millisecs += 1;
+    if (this.millisecs % 100 === 0 && this.millisecs !== 0) {
+      this.secs += 1;
+      this.millisecs = 0;
+    }
+    if (this.secs % 60 === 0 && this.secs !== 0) {
+      this.mins += 1;
+      this.secs = 0;
+    }
   },
   reset: function(){
-    // Your Code Here
+    this.millisecs = 0;
+    this.secs = 0;
+    this.mins =0;
+    this.laps = [];
   },
   start: function(){
-    // Your Code Here
+    if (this.isRunning === false){
+      this.isRunning = true;
+    }
   },
   stop: function(){
-    // Your Code Here
+    if (this.isRunning === true) {
+      this.isRunning = false;
+    }
   },
   lap: function(){
-    // Your Code Here
+    if (this.isRunning === true) {
+      this.laps.unshift({Minutes: this.mins, Seconds: this.secs, Milliseconds: this.millisecs});
+    }
   }
 };
 
 /// User Interface ///
 const ViewEngine = {
+  //grabs span, runs zeroFill on data
   updateTimeDisplay: function(mins, secs, millisecs){
-    // Your Code Here
+    $('#millisecs').html(ViewHelpers.zeroFill(millisecs, 2));
+    $("#secs").html(ViewHelpers.zeroFill(secs, 2));
+    $("#mins").html(ViewHelpers.zeroFill(mins, 2));
   },
   updateLapListDisplay: function(laps){
-    // Your Code Here
+      let mins = ViewHelpers.zeroFill(laps.Minutes, 2);
+      let secs = ViewHelpers.zeroFill(laps.Seconds, 2);
+      let millisecs = ViewHelpers.zeroFill(laps.Milliseconds, 2);
+      $("#lap-list").append("<li>"+mins+":"+secs+":"+millisecs+"</li>");
   },
 };
 const ViewHelpers = {
   zeroFill: function(number, length){
-    // Your Code Here
+    let stringNumber = number.toString()
+    while (stringNumber.length < length){
+      stringNumber = "0" + stringNumber;
+    }
+    return stringNumber;
   },
 };
 
 /// Top-Level Application Code ///
 const AppController = {
   handleClockTick: function(){
-    // Your Code Here
+    let mins = Stopwatch.mins;
+    let secs = Stopwatch.secs;
+    let millisecs = Stopwatch.millisecs;
+    ViewEngine.updateTimeDisplay(mins, secs, millisecs);
   },
   handleClickStart: function() {
-    // Your Code Here
+    if (Stopwatch.isRunning === false) {
+      Stopwatch.start();
+      Stopwatch.tickClock();
+    }
   },
   handleClickStopReset: function(){
-    // Your Code Here
+    if (Stopwatch.isRunning === false){
+      Stopwatch.reset();
+      ViewEngine.updateTimeDisplay(0, 0, 0);
+      $("#lap-list").empty();
+    }
+    Stopwatch.stop();
   },
   handleClickLap: function(){
-    // Your Code Here
+    Stopwatch.lap();
+    ViewEngine.updateLapListDisplay(Stopwatch.laps[0])
   }
 };
 
-window.onload = function(){
-  // Attach AppController methods to the DOM as event handlers here.
-};
+
+$(document).ready(function(){
+  $("#start").on("click", AppController.handleClickStart);
+  $("#stop").on("click", AppController.handleClickStopReset);
+  $("#lap").on("click", AppController.handleClickLap);
+});
