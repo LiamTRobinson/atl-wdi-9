@@ -1,5 +1,883 @@
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Welcome to WDI 9!!!
 
+### Week 12
+<table><thead>
+  <tr>
+    <th>Time</th>
+    <th>Day 1</th>
+    <th>Day 2</th>
+    <th>Day 3</th>
+    <th>Day 4</th>
+    <th>Day 5</th>
+  </tr>
+  </thead><tbody>
+  <tr>
+    <td><strong>WarmUp</strong></td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 1</strong></td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 2</strong></td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 3</strong></td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four Presentations
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 4</strong></td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four Presentations
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Training</strong></td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Project Four
+    </td>
+    <td>
+      Graduation!!!!
+    </td>
+  </tr>
+</tbody></table>
+
+### Supplemental Reading for week 12
+
+### Week 11 
+<table><thead>
+  <tr>
+    <th>Time</th>
+    <th>Day 1</th>
+    <th>Day 2</th>
+    <th>Day 3</th>
+    <th>Day 4</th>
+    <th>Day 5</th>
+  </tr>
+  </thead><tbody>
+  <tr>
+    <td><strong>WarmUp</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/wdi-8/blob/master/ruby-lightning-talks/README.md">Lightning Talks</a>
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 1</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/wdi-8/blob/master/ruby-lightning-talks/README.md">Lightning Talks</a>
+    </td>
+    <td>
+      Intro to TDD
+    </td>
+    <td>
+      TDD
+    </td>
+    <td>
+      TDD
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 2</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project Presentations</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/wdi-8/blob/master/ruby-lightning-talks/README.md">Lightning Talks Presentations</a>
+    </td>
+    <td>
+      Intro to TDD
+    </td>
+    <td>
+      TDD
+    </td>
+    <td>
+      TDD
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 3</strong></td>
+    <td>
+      Technical Interviews/Lightning Talk Prep
+    </td>
+    <td>
+      Technical Interviews/<br />
+      <a href="https://github.com/ATL-WDI-Exercises/rails_bog_app">Bog App</a>
+    </td>
+    <td>
+      Technical Interviews/<br />
+      <a href="https://github.com/ATL-WDI-Exercises/rails_bog_app">Bog App</a>
+    </td>
+    <td>
+      TDD
+    </td>
+    <td>
+      Walk through Sample Project
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 4</strong></td>
+    <td>
+      Technical Interviews
+    </td>
+    <td>
+      Technical Interviews/<br />
+      <a href="https://github.com/ATL-WDI-Exercises/rails_bog_app">Bog App</a>
+    </td>
+    <td>
+      Technical Interviews/<br />
+      <a href="https://github.com/ATL-WDI-Exercises/rails_bog_app">Bog App</a>
+    </td>
+    <td>
+      TDD
+    </td>
+    <td>
+      Walk through Sample Project<br />
+      Intro to Project Four
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Training</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/wdi-8/blob/master/ruby-lightning-talks/README.md">Lightning Talks</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/rails_bog_app">Bog App</a>
+    </td>
+    <td>
+      Homework
+    </td>
+    <td>
+      Homework
+    </td>
+    <td>
+      Project Four
+    </td>
+  </tr>
+</tbody></table>
+
+### Supplemental Reading for week 11
+
+### Week 10 
+<table><thead>
+  <tr>
+    <th>Time</th>
+    <th>Day 1</th>
+    <th>Day 2</th>
+    <th>Day 3</th>
+    <th>Day 4</th>
+    <th>Day 5</th>
+  </tr>
+  </thead><tbody>
+  <tr>
+    <td><strong>WarmUp</strong></td>
+    <td>
+      Morning Exercise
+    </td>
+    <td>
+      <a href="https://github.com/ga-students/wdi-remote-matey/tree/master/unit_04/w12d01/morning_exercise">Morning Exercise- CSS Frameworks- Update me to right repo</a>
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 1</strong></td>
+    <td>
+      Rake
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-asset-pipeline">Rails Asset Pipeline, Forms, Helpers</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-authorization_devise">Devise + Cancancan</a>
+    </td>
+    <td>
+      Sample Project
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 2</strong></td>
+    <td>
+      Rake
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-asset-pipeline">Rails Asset Pipeline, Forms, Helpers</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-authorization_devise">Devise + Cancancan</a>
+    </td>
+    <td>
+      Sample Project
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 3</strong></td>
+    <td>
+      Gulp
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/css-sass">SASS</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-api-code-along">Angular on Rails API</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 4</strong></td>
+    <td>
+      Gulp
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/css-sass">SASS</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-api-code-along">Angular on Rails API</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Training</strong></td>
+    <td>
+      Homework
+    </td>
+    <td>
+      Homework
+    </td>
+    <td>
+      Homework
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/project-vagabond">Vagabond Project</a>
+    </td>
+  </tr>
+</tbody></table>
+
+### Supplemental Reading for week 10
+
+### Week 9 - Intro to Ruby
+<table><thead>
+  <tr>
+    <th>Time</th>
+    <th>Day 1</th>
+    <th>Day 2</th>
+    <th>Day 3</th>
+    <th>Day 4</th>
+    <th>Day 5</th>
+  </tr>
+  </thead><tbody>
+  <tr>
+    <td><strong>WarmUp</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_04/w12d02/morning_exercise">Morning Exercise</a>
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_04/w12d04/morning_exercise">Morning Exercise</a>
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 1</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w12d02/instructor_notes/intro_to_ruby.md">Intro to Ruby</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w12d03/instructor_notes/inheritance_in_ruby.md">Inheritance in Ruby</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w12d04/instructor_notes/intro_to_active_record_and_migrations.md">Intro to Active Record</a>
+    </td>
+    <td>
+      <a href="https://github.com/ga-students/wdi-remote-matey/blob/master/unit_04/w12d04/instructor_notes/intro_rails_api.md">Intro to Rails API</a><br />
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-intro/blob/master/README.md">Intro to Rails</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-views-and-controller">Rails Views + Controllers</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 2</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w12d02/instructor_notes/intro_to_ruby.md">Intro to Ruby</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w12d03/instructor_notes/inheritance_in_ruby.md">Inheritance in Ruby</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w12d04/instructor_notes/active_record_one_to_many.md">Active Record One to Many</a>
+    </td>
+    <td>
+      <a href="https://github.com/ga-students/wdi-remote-matey/blob/master/unit_04/w12d04/instructor_notes/intro_rails_api.md">Intro to Rails API</a><br />
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-intro/blob/master/README.md">Intro to Rails</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/pet-lab">Rails Views + Controllers Lab</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 3</strong></td>
+    <td>
+      Advanced Ruby
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w12d03/instructor_notes/oop_ruby.md">OOP in Ruby</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/fridge_tracker"Active Record Lab</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-active-record-migrations">Rails Migrations, Associations and Validations</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-routing">Rails Resources and Routing</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 4</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w12d02/student_labs/reps.md">Ruby Lab</a>
+    </td>
+    <td>
+      Lab
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/fridge_tracker">Active Record Lab</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Exercises/rails-active-record-migrations">Rails Migrations, Associations and Validations Lab</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/rails-routing">Rails Resources and Routing Lab</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Training</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_04/w12d02/homework">Homework</a>
+    </td>
+    <td>
+      Homework
+    </td>
+    <td>
+      Homework
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_04/w12d04/homework">Homework</a>
+    </td>
+    <td>
+      Homework- Hartl Tutorial
+    </td>
+  </tr>
+</tbody></table>
+
+### Supplemental Reading for week 9
+
+### Week 8 - Project Three, SQL, SQL Joins, Install Ruby
+<table><thead>
+  <tr>
+    <th>Time</th>
+    <th>Day 1</th>
+    <th>Day 2</th>
+    <th>Day 3</th>
+    <th>Day 4</th>
+    <th>Day 5</th>
+  </tr>
+  </thead><tbody>
+  <tr>
+    <td><strong>WarmUp</strong></td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three Retrospective
+    </td>
+    <td>
+      <a href="https://github.com/ga-students/wdi-remote-matey/tree/master/unit_04/w11d04/morning_exercise">Morning Exercise</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 1</strong></td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w11d04/instructor_notes/getting_postgres.md">Downloading Postgres</a><br />
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w11d04/instructor_notes/sql_basics.md">Intro to SQL</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w11d05/instructor_notes/sql_joins.md">SQL Joins</a><br />
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w11d05/instructor_notes/schema.sql">Schema SQL</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 2</strong></td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w11d04/instructor_notes/sql_relationships.md">Relationships in SQL</a><br />
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w11d05/instructor_notes/sql_advanced_sol.sql">Advanced SQL</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 3</strong></td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three Presentations
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w11d04/instructor_notes/erd_domains.md">Domain Modeling & ERDs</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w11d05/instructor_notes/install_ruby.md">Install Ruby</a><br />
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_04/w11d05/instructor_notes/how_to_run_ruby.md">How to Run Ruby</a><br />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 4</strong></td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three Presentations
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_04/w11d04/student_labs/library_sql">Library SQL</a>
+    </td>
+    <td>
+      <a href="https://github.com/ga-students/wdi-remote-matey/tree/master/unit_04/w11d04/homework">Lab</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Training</strong></td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      Project Three
+    </td>
+    <td>
+      No Homework
+    </td>
+    <td>
+      Homework
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_04/w11d05/homework">Homework</a>
+    </td>
+  </tr>
+</tbody></table>
+
+### Supplemental Reading for week 8
+
+### Week 7 - $HTTP, UI-Router, Project Three
+<table><thead>
+  <tr>
+    <th>Time</th>
+    <th>Day 1</th>
+    <th>Day 2</th>
+    <th>Day 3</th>
+    <th>Day 4</th>
+    <th>Day 5</th>
+  </tr>
+  </thead><tbody>
+  <tr>
+    <td><strong>WarmUp</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d04/morning_exercise">Morning Exercise</a>
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w10d01/morning_exercise">Morning Exercise</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w10d02/morning_exercise">Morning Exercise</a>
+    </td>
+    <td>
+      Morning Exercise
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 1</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d04/instructor_notes/angular-http.md">Ajax and $HTTP</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d05/instructor_notes/angular-ui-router.md">UI Router</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w10d01/instructor_notes/angular_services.md">Angular Services</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w10d02/instructor_notes/auth_broadcast_emit_on.md">Authentication Angular</a>
+    </td>
+    <td>
+      Project Three Intro<br />
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w10d03/instructor_notes/git_cheatsheet.md">Git Cheat Sheet</a><br />
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w10d03/instructor_notes/collaborating_with_git.md">Collaborating with git</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 2</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d04/instructor_notes/angular-http.md">Ajax and $HTTP</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d05/instructor_notes/angular-ui-router.md">UI Router</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w10d01/instructor_notes/angular_services.md">Angular Services</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w10d02/instructor_notes/auth_broadcast_emit_on.md">Authentication Angular</a>
+    </td>
+    <td>
+      Project Three
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 3</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d04/instructor_notes/w09d04%20-%20%24http%20lesson%20presidents%20app.png">Presidents png</a>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d04/student_labs/presidents-app-starter-code-single-app-version">Presidents Starter Code</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d05/instructor_notes/finish_crud_with_http.md">Giphy with UI Router</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/angular-forms">Angular Forms + Validations</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w10d02/instructor_notes/auth_broadcast_emit_on.md">Authentication Angular</a>
+    </td>
+    <td>
+      Project Three
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 4</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d04/student_labs/criminals-starter-code-single-app">Criminals Starter Code</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w10d02/instructor_notes/pub_sub">Pub Sub</a>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d05/student_labs/giphy_ang_starter">Giphy Lab</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w10d03/student_labs/git_lab.md">Git Lab</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w10d02/student_labs">Giphy with Angular + Auth</a>
+    </td>
+    <td>
+      Project Three
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Training</strong></td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d04/homework">Homework</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d05/homework">Homework</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w10d01/homework">Homework</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w10d02/homework">Homework</a>
+    </td>
+    <td>
+      Project Three
+    </td>
+  </tr>
+</tbody></table>
+
+### Supplemental Reading for week 7
+
+### Week 6 - Project 2
+<table><thead>
+  <tr>
+    <th>Time</th>
+    <th>Day 1</th>
+    <th>Day 2</th>
+    <th>Day 3</th>
+    <th>Day 4</th>
+    <th>Day 5</th>
+  </tr>
+  </thead><tbody>
+  <tr>
+    <td><strong>WarmUp</strong></td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two Retrospective
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d02/morning_exercise">Morning Exercise</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 1</strong></td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d02/homework">Code School Angular</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d03/instructor_notes/angular_directives_and_nested_controllers.md">Intro to Angular with Nested Controllers</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 2</strong></td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d02/homework">Code School Angular</a>
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d03/student_labs/angular-directives-happy-app-instructions.md">Angular Directives</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 3</strong></td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two Presentations
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d03/instructor_notes/angular_intro.md">Intro to Angular</a>
+    </td>
+    <td>
+      <a href="https://docs.angularjs.org/tutorial">Angular Phonecat</a><br />
+      <a href="https://angular.io/docs/ts/latest/tutorial/">Tour of Heroes</a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mod 4</strong></td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two Presentations
+    </td>
+    <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d03/student_labs/angular-intro-museum-app-lab-instructions.md">Angular Lab</a>
+    </td>
+    <td>
+      <a href="https://docs.angularjs.org/tutorial">Angular Phonecat</a><br />
+      <a href="https://angular.io/docs/ts/latest/tutorial/">Tour of Heroes</a><br />
+      + get started on homework
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Training</strong></td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      Project Two
+    </td>
+    <td>
+      No Homework
+    </td>
+    <td>
+      Homework
+    </td>
+    <td>
+      Homework
+    </td>
+  </tr>
+</tbody></table>
+
+### Supplemental Reading for week 6
+
 ### Week 5 - Mongo/Mongoose, Security, Project 2
 <table><thead>
   <tr>
@@ -23,10 +901,11 @@
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_02/w07d05/morning_exercise">Morning Exercise</a>
     </td>
     <td>
-      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_02/w08d01/morning_exercise">Morning Exercise</a>
+      Diagnostic
     </td>
     <td>
-      Morning Exercise
+      <!-- <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_02/w08d01/morning_exercise">Morning Exercise</a> -->
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d01/homework">Sample Project</a>
     </td>
   </tr>
   <tr>
@@ -36,7 +915,7 @@
       <a href="https://github.com/ATL-WDI-Curriculum/js-modern-array-methods">Advanced Array Functions</a>
     </td>
     <td>
-      Diagnostic
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w07d03/instructor_notes/mongo_install.md">Mongo Set up</a>
     </td>
     <td>
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w07d04/instructor_notes/mongoose_express.md">Mongoose Postman Lab</a>
@@ -50,8 +929,7 @@
       <!-- https://github.com/ga-wdi-lessons/express-sequelize -->
     </td>
     <td>
-      <!-- Previous Projects: https://github.com/ATL-WDI-Curriculum/projects/blob/master/project2-sample-projects.md -->
-      Intro to Project Two/Sample Project
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d01/homework">Sample Project</a>
     </td>
   </tr>
   <tr>
@@ -60,7 +938,7 @@
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w07d02/student_labs/constructor-lab-prompt.md">Constructors LAB</a>
     </td>
     <td>
-      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w07d03/instructor_notes/mongo_install.md">Mongo Set up</a>
+      <a href="https://github.com/ga-wdi-lessons/mongo-intro">Intro to Mongo</a>
     </td>
     <td>
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w07d05/instructor_notes/mongo_terminal_env.md">CRUD Mongo</a>
@@ -69,7 +947,7 @@
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_02/w08d01/student_labs/auth_starter">Authentication LAB</a>
     </td>
     <td>
-      Intro to Project Two/Sample Project
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d01/homework">Sample Project</a>
     </td>
   </tr>
   <tr>
@@ -78,7 +956,7 @@
       <a href="https://github.com/ATL-WDI-Exercises/mean_todo_app">Promises</a>
     </td>
     <td>
-      <a href="https://github.com/ga-wdi-lessons/mongo-intro">Intro to Mongo</a>
+      <a href="https://github.com/ga-wdi-lessons/mongo-relationships">Mongo Relationships</a>
     </td>
     <td>
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w07d05/instructor_notes/mongo_terminal_env.md">CRUD Mongo</a>
@@ -88,7 +966,8 @@
       <!-- digital ocean- https://github.com/ga-wdi-lessons/express-deploy-mongo -->
     </td>
     <td>
-      Project Two
+      <a href="https://github.com/ATL-WDI-Curriculum/projects/blob/master/project2-sample-projects.md">Previous Projects</a><br />
+      Intro to Project Two/Project Two
     </td>
   </tr>
   <tr>
@@ -97,14 +976,13 @@
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_02/w07d02/student_labs/promises-lab-starter">Promises LAB</a>
     </td>
     <td>
-      <a href="https://github.com/ga-wdi-lessons/mongo-relationships">Mongo Relationships</a>
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w07d04/instructor_notes/mongoose_intro.md">Mongoose Intro</a>
     </td>
     <td>
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w07d05/instructor_notes/finishing_up_full_crud.md">Finishing up CRUD</a>
     </td>
     <td>
-      Catch up/Sessions?
+      Catch up/Sessions?/start hw
     </td>
     <td>
       Project Two
@@ -130,6 +1008,8 @@
   </tr>
 </tbody></table>
 
+### Supplemental Reading for week 5
+
 ### Week 4 - NodeJS, Express, Mongoose
 <table><thead>
   <tr>
@@ -144,7 +1024,7 @@
   <tr>
     <td><strong>WarmUp</strong></td>
     <td>
-      Project 1 Retrospective
+      Project One Retrospective
     </td>
     <td>
       WDI9 Outcomes: Linkedin for your Job Search
@@ -156,7 +1036,7 @@
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_02/w06d04/morning_exercise">Morning Exercise</a>
     </td>
     <td>
-      <a href="">Morning Exercise</a>
+      Morning Exercise
     </td>
   </tr>
   <tr>
@@ -215,15 +1095,16 @@
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w06d05/instructor_notes/update_delete.md">DB Operations Update/Delete</a>
     </td>
     <td>
-      <a href="https://github.com/ga-wdi-lessons/js-ajax">AJAX Session</a>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_03/w09d01/instructor_notes/ajax_with_jquery.md">AJAX Session</a>
       <!-- https://github.com/ga-wdi-lessons/api-intro-with-ajax -->
+      <!-- https://github.com/ga-wdi-lessons/js-ajax -->
     </td>
   </tr>
   <tr>
     <td><strong>Mod 4</strong></td>
     <td>
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w06d01/student_labs/node_lab.md">Node Lab</a><br />
-      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w06d03/student_labs/router_lab.md">Router LAB</a>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/unit_02/w06d03/student_labs/router_lab.md">Handlebar Router LAB</a>
     </td>
     <td>
       <a href="https://github.com/ga-wdi-exercises/compliment-express">LAB</a>
@@ -237,6 +1118,7 @@
       <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_02/w06d05/student_labs/in-class-code-hbs">In-class-code-hbs</a>
     </td>
     <td>
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/tree/master/unit_03/w09d01/instructor_notes/giphy_app_starter">Giphy LAB</a><br />
       <a href="https://github.com/ga-wdi-exercises/bootflix">LAB</a>
     </td>
   </tr>
@@ -276,7 +1158,7 @@
 - [Client Side vs. Server Side ](https://spin.atomicobject.com/2015/04/06/web-app-client-side-server-side/)
 <br />
 
-### Week 3 - Project Management/Project 1
+### Week 3 - Project Management/Project One
 <table><thead>
   <tr>
     <th>Time</th>
@@ -296,13 +1178,13 @@
       WDI9 Outcomes: Elevator Pitch + Networking in ATL
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
   </tr>
   <tr>
@@ -311,16 +1193,16 @@
       <a href="https://github.com/ATL-WDI-Curriculum/sdlc">SDLC / Agile</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
   </tr>
   <tr>
@@ -329,52 +1211,52 @@
       <a href="https://github.com/ATL-WDI-Curriculum/sdlc">SDLC / Agile</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
   </tr>
   <tr>
     <td><strong>Mod 3</strong></td>
     <td>
-      User Stories, Wireframes, Project Managements + Github Issues
+      User Stories
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One Presentations
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One </a>Presentations
     </td>
   </tr>
   <tr>
     <td><strong>Mod 4</strong></td>
     <td>
-      User Stories, Wireframes, Project Managements + Github Issues
+        Wireframes
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One Presentations
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One </a>Presentations
     </td>
   </tr>
   <tr>
@@ -383,19 +1265,21 @@
       Homework: Catch Up
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Project One
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/projects/unit_01/README.md">Project One</a>
     </td>
     <td>
-      Portfolio Site
+      <a href="https://github.com/ATL-WDI-Curriculum/atl-wdi-9/blob/master/homework/first-project-portfolio-site.md">Portfolio Site</a>
     </td>
   </tr>
 </tbody></table>
+
+### Supplemental Reading for week 3
 
 ### Week 2 - Javascript/DOM
 <table><thead>
@@ -511,7 +1395,7 @@
       ">Javascript Jedi LAB</a><br />
     </td>
     <td>
-      Intro to Design Patterns - Danny
+      Guest Speaker
     </td>
   </tr>
   <tr>
@@ -604,6 +1488,7 @@
 - [CSS Tricks- Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Keyframe Animation](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
 - [Prefix Free](http://leaverou.github.io/prefixfree/)
+- [How Flexbox works — explained with big, colorful, animated gifs](https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.ufp5lkory)
 <br />
 
 #### Articles
@@ -784,12 +1669,13 @@
 * [Google Calendar](https://calendar.google.com/calendar/embed?src=b4s54mkg0s2c1ddov57cffe4ls%40group.calendar.google.com&ctz=America/New_York)
 * [Hypepotamus Calendar of Events](https://hypepotamus.com/events/)
 * [Meetups](http://www.meetup.com/)
-* [WDI-9 JS Cheatsheet](https://docs.google.com/document/d/1J_ZjV0n65FZ_yQM8dqPqVw5JyebQh_AvhmXLYqCrc3o/edit?usp=sharing)
-* [WDI-9 Bootstrap Cheatsheet](https://github.com/ATL-WDI-Curriculum/bootstrap-intro/blob/master/wdi-9-bootstrap-cheatsheet.md)
+* [WDI-9 JS Cheat Sheet](https://docs.google.com/document/d/1J_ZjV0n65FZ_yQM8dqPqVw5JyebQh_AvhmXLYqCrc3o/edit?usp=sharing)
+* [WDI-9 Bootstrap Cheat Sheet](https://github.com/ATL-WDI-Curriculum/bootstrap-intro/blob/master/wdi-9-bootstrap-cheatsheet.md)
 * [Pomodoro Timer](http://www.marinaratimer.com/)
 * [Bullet Journal](http://bulletjournal.com/get-started/)
 * [Can I Use](http://caniuse.com/)
 * [Silicon Valley Scene](https://www.youtube.com/watch?v=oyVksFviJVE)
+* [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Tutorial Sites
 
@@ -819,6 +1705,11 @@
 * [Things we wish we knew when learning to code](https://medium.com/code-school/things-we-wish-we-knew-when-we-were-learning-to-code-bd83067ac509#.v1rtk8544)
 * [How a typo took down S3, the backbone of the internet](http://www.theverge.com/2017/3/2/14792442/amazon-s3-outage-cause-typo-internet-server)
 * [Programmers are confessing their coding sins to protest a broken job interview process](https://theoutline.com/post/1166/programmers-are-confessing-their-coding-sins-to-protest-a-broken-job-interview-process)
+* [How to Fail as a Web Developer](https://theindex.generalassemb.ly/how-to-fail-as-a-web-developer-d218494df1f5#.84g40k5sq)
+* [How creating CSS images made me a better developer – Coding Artist](https://medium.com/coding-artist/how-creating-css-images-made-me-a-better-developer-25b7a79f1af6#.fw2lf1xpe)
+* [How NOT to design Netflix in your 45-minute System Design Interview?](https://hackernoon.com/how-not-to-design-netflix-in-your-45-minute-system-design-interview-64953391a054#.lmb6yuuz4)
+* [Imposter syndrome on high — my amateur Web developer start](https://medium.com/@DavidBrandtWho/imposter-syndrome-on-high-my-amateur-web-developer-start-f0be0ca6bf25#.xtcewv2k4)
+* [Make your First Game- MVP](https://www.youtube.com/watch?v=UvCri1tqIxQ)
 
 ## Twitter Feeds to Follow
 * [Code newbie](https://twitter.com/codenewbies)
