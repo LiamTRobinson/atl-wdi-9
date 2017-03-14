@@ -1,0 +1,9 @@
+h1 {
+	font-family: fantasy;
+	text-align: center;
+	font-size: 70px;
+}
+
+body {
+	background-image: url("/images/pizza.jpg");
+}
