@@ -60,10 +60,12 @@ const ViewEngine = {
     $("#mins").html(ViewHelpers.zeroFill(mins, 2));
   },
   updateLapListDisplay: function(laps){
+    if (Stopwatch.isRunning === true) {
       let mins = ViewHelpers.zeroFill(laps.Minutes, 2);
       let secs = ViewHelpers.zeroFill(laps.Seconds, 2);
       let millisecs = ViewHelpers.zeroFill(laps.Milliseconds, 2);
       $("#lap-list").append("<li>"+mins+":"+secs+":"+millisecs+"</li>");
+    }
   },
 };
 const ViewHelpers = {
@@ -100,7 +102,7 @@ const AppController = {
   },
   handleClickLap: function(){
     Stopwatch.lap();
-    ViewEngine.updateLapListDisplay(Stopwatch.laps[0])
+    ViewEngine.updateLapListDisplay(Stopwatch.laps[0]);
   }
 };
 
