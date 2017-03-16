@@ -1,0 +1,45 @@
+body {
+	background: seagreen;
+}
+
+h1 {
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	border-bottom: solid;
+}
+
+a {
+	color: black;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+#form-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 150px;
+}
+
+form {
+	border: 3px darkred solid;
+	padding: 10px;
+	font-size: 25px;
+}
+
+.form {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+#submit {
+	display: flex;
+	justify-content: center;
+}

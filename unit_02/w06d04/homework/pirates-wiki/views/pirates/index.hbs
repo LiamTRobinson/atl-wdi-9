@@ -1,0 +1,7 @@
+<h1>{{data.length}} Pirates, Matey:</h1>
+
+<ul>
+	{{# each data}}
+		<li><a href="/pirates/{{@index}}">{{this.name}}</a></li>
+	{{/each}}
+</ul>
