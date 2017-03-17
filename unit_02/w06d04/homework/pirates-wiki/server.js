@@ -12,7 +12,7 @@ app.use(express.static(__dirname + '/public'));
 
 //paths
 app.get("/", function(req, res) {
-	res.send("This is the home page!")
+	res.redirect("/pirates");
 });
 
 var piratesController = require("./controllers/pirates.js");

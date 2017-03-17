@@ -1,0 +1,23 @@
+body {
+	background: lightblue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#new {
+	margin-top: 150px;
+	border: 5px solid black;
+	background: lightgrey;
+}
+
+.form {
+	margin: 30px;
+	text-align: center;
+}

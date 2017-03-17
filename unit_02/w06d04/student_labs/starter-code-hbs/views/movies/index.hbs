@@ -1,0 +1,33 @@
+{{#if movies}}
+<h1> You Have {{numOfMovies}} Movies </h1>
+<h2>To See:</h2>
+<ul>
+	{{#each movies}}
+		{{#unless viewed}}
+		<li>Title: <a href="/movies/{{@index}}">{{title}}</a></li>
+	    <li>Viewed: {{viewed}}</li>
+	    <div><a href="/movies/{{@index}}/edit">Edit</a></div>
+	    <form method="POST" action="/movies/{{@index}}?_method=DELETE">
+		    <input type="submit" value="DELETE">
+		</form>
+	    <br>
+	    {{/unless}}
+	{{/each}}
+</ul>
+<h2>Seen:</h2>
+<ul>
+	{{#each movies}}
+		{{#if viewed}}
+		<li>Title: <a href="/movies/{{@index}}">{{title}}</a></li>
+	    <li>Viewed: {{viewed}}</li>
+	    <div><a href="/movies/{{@index}}/edit">Edit</a></div>
+	    <form method="POST" action="/movies/{{@index}}?_method=DELETE">
+		    <input type="submit" value="DELETE">
+		</form>
+	    <br>
+	    {{/if}}
+	{{/each}}
+</ul>
+{{else}}
+<p>You have no movies</p>
+{{/if}}

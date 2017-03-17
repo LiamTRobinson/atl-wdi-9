@@ -1,8 +1,37 @@
-<h1> Todos </h1>
+{{#if todos}}
+<h1> You Have {{numOfTodos}} Todos </h1>
+<h2>URGENT:</h2>
 <ul>
-  {{#each todos}}
-    <li>Description: {{description}}</li>
-    <li>Urgent: {{urgent}}</li>
-    <br>
-  {{/each}}
+	{{#each todos}}
+		{{#if urgent}}
+			<li>Description: <a href="/todos/{{@index}}">{{description}}</a></li>
+		    <li>Urgent: {{urgent}}</li>
+		    <li>Location: {{location}}</li>
+		    <div><a href="/todos/{{@index}}/edit">Edit</a></div>
+		    <form method="POST" action="/todos/{{@index}}?_method=DELETE">
+		    	<input type="submit" value="DELETE">
+		    </form>
+		    <br>
+	    {{/if}}
+	{{/each}}
 </ul>
+<h2>Not so urgent:</h2>
+<ul>
+	{{#each todos}}
+		{{#unless urgent}}
+			<li>Description: <a href="/todos/{{@index}}">{{description}}</a></li>
+		    <li>Urgent: {{urgent}}</li>
+		    <li>Location: {{location}}</li>
+		    <div><a href="/todos/{{@index}}/edit">Edit</a></div>
+		    <form method="POST" action="/todos/{{@index}}?_method=DELETE" >
+		    	<input type="submit" value="DELETE">
+		    </form>
+		    <br>
+	    {{/unless}}
+	{{/each}}
+</ul>
+{{else}}
+<p>You have no todos</p>
+{{/if}}
+
+
