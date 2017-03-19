@@ -16,6 +16,7 @@ router.post('/', function(req, res){
 
   gif.save(function(err, gif){
     if (err) console.log(err);
+    if (gif) console.log(gif);
   });
 });
 
