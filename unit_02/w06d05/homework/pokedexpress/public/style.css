@@ -1,0 +1,19 @@
+h1 {
+	text-align: center;
+	background: red;
+	color: white;
+	font-size: 50px;
+}
+
+.pokedex-index-entry {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 5px solid red;
+	align-items: center;
+}
+
+.pokedex-filler {
+	height: 400px;
+	width: 10%;
+	background: red;
+}

@@ -1,0 +1,59 @@
+<h1>{{data.name}}</h1>
+<br>
+<img src="{{data.img}}" alt="{{data.name}}">
+<br>
+<form action="/pokemon/{{index}}?_method=DELETE" method="POST">
+	<input type="submit" value="Delete This Pokedex Entry">
+</form>
+<form action="/pokemon/{{index}}/edit" method="GET">
+	<input type="submit" value="Edit This Pokedex Entry">
+</form>
+<form action="/pokemon" method="GET">
+	<input type="submit" value="Back To All Pokemon">
+</form>
+<ul>
+	<li>Pokedex Number: {{data.id}}</li>
+	<li>Type(s):</li>
+		<ul>
+			{{#each data.type}}
+				<li>{{this}}</li>
+			{{/each}}
+		</ul>
+	<li>Stats:</li>
+		<ul>
+			{{#each data.stats}}
+				<li>{{@key}}: {{this}}</li>
+			{{/each}}
+		</ul>
+	<li>Moves:</li>
+		<ul>
+			{{#each data.moves}}
+				<li>{{@key}}:</li>
+					<ul>
+						{{#each this}}
+							<li>Name: {{name}}</li>
+							<li>Learned At: {{learnedat}}</li>
+							<li>Generation: {{gen}}</li>
+							<br>
+						{{/each}}
+					</ul>
+			{{/each}}
+		</ul>
+	<li>Damages:</li>
+		<ul>
+			{{#each data.damages}}
+				<li>{{@key}}: {{this}}</li>
+			{{/each}}
+		</ul>
+	<li>Misc:</li>
+		<ul>
+			{{#each data.misc}}
+				<li>{{@key}}: {{this}}</li>
+					<ul>
+						{{#each this}}
+						<li>{{@key}}: {{this}}</li>
+						{{/each}}
+					</ul>
+			{{/each}}
+		</ul>
+</ul>

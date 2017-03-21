@@ -1,63 +1,70 @@
 //***************************
 // REQUIREMENTS
 //***************************
-// Set up your express dependency here:
 
-// Set express Router to a variable called router:
-
-// Let's export this router file at the bottom of the page:
-// (Scroll to bottom to Exports)
-
-// Require the poke_array.js file here from models.
-// Save it to a variable called data:
-
-
-
+var express = require("express");
+var router = express.Router();
+var data = require("../models/poke_array.js");
 
 //***************************
 // READ
 //***************************
-// Note: All the routes below can be accessed at `localhost:3000/pokemon` + `resource`
-// Make a GET route '/' that will render an index page of all pokemon images
 
+router.get("/", function(req, res) {
+	res.render("pokemon/index", {
+		data: data
+	});
+});
 
+router.get("/index/:index", function(req, res) {
+	res.render("pokemon/show", {
+		data: data[req.params.index],
+		index: req.params.index
+	});
+});
 
+router.get("/new", function(req, res) {
+	res.render("pokemon/new");
+});
 
-
-// Make a GET route '/index/:index' that will render the Pokemon's show page at that :index
-//
-// Example: a user goes to 'localhost:3000/pokemon/index/0' in the browser and data for Bulbasaur (the pokemon at index 0) will be displayed.
-
-
-
-
-// Make a GET route '/new' that will simply render a form to create a new Pokemon
-
-
-
-
-
-
+router.get("/:index/edit", function(req, res) {
+	res.render("pokemon/edit", {
+		data: data[req.params.index],
+		index: req.params.index
+	});
+});
 
 //***************************
 // CREATE
 //***************************
-//make a POST route '/' to create a New Pokemon
 
+router.post("/", function(req, res) {
+	data.push(req.body);
+	res.redirect("/pokemon");
+});
 
 //***************************
 // UPDATE
 //***************************
 
+router.put("/:index", function(req, res) {
+	var pokemonToEdit = data[req.params.index];
+	pokemonToEdit.id = req.body.id;
+	pokemonToEdit.type = req.body.type;
+	res.redirect("/pokemon");
+});
+
 //***************************
 // DELETE
 //***************************
-//make a DELETE route '/:index' that will delete the Pokemon at this index.
 
-
+router.delete("/:index", function(req, res) {
+	data.splice(req.params.index, 1);
+	res.redirect("/pokemon");
+});
 
 //***************************
 // EXPORTS
 //***************************
-// use module.exports to export router:
-// this makes the scripts on this page accessible by other files that "require" this file. Without exporting, the code in here just sits in here, alone.
+
+module.exports = router;

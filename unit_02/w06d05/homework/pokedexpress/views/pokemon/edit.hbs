@@ -1,0 +1,10 @@
+<form action="/pokemon/{{index}}?_method=PUT" method="POST">
+	<label for="id">Pokedex Number:</label>
+	<input type="number" name="id" value="{{data.id}}">
+
+	<label for="type">Type(s):</label>
+	{{#each data.type}}
+		<input type="text" name="type" value="{{this}}">
+	{{/each}}
+	<input type="submit" value="Submit Changes">
+</form>

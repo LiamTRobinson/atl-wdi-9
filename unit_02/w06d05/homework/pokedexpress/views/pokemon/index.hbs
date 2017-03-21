@@ -1,0 +1,12 @@
+<h1>Pokedex Entries</h1>
+{{#each data}}
+<div class="pokedex-index-entry">
+	<div class="pokedex-filler">
+	</div>
+	<div>
+		<a href="/pokemon/index/{{@index}}"><img src="{{img}}" alt="{{name}}"></a>
+	</div>
+	<div class="pokedex-filler">
+	</div>
+</div>
+{{/each}}

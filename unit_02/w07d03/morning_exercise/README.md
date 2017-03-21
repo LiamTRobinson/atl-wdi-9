@@ -51,49 +51,49 @@ Confusing?? Let's make sense of these concepts. Let's get to understand the beha
 
 1. In `promises.js`, in line 9, replace `deferred.resolve()` with `deferred.reject()`. Save your file, and refresh your browser at `promises.html`. Click the `button 1`. What happens?
 
-  > Button 1 Answer
+  Changes full animation sequence to oh no something went wrong.
 
 2. Where is this alert coming from? (What line from `promises.js`?)
 
-  > Button 1 Answer
+  function at line 37
 
 3. Now let's test Button 2: In `promises.js`, change line 9 to `deferred.reject("Oops something happened.")`. Save your file, refresh your browser at `promises.html`. Click button 2. What happens?
 
-  > Button 2 Answer
+  No cool alert
 
 4. Where is the console log coming from? (what line?)
 
-  > Button 2 Answer
+  61
 
 5. Now, comment out line 9 completely: `//  deferred.reject();`. Save your file, and refresh your browser at `promises.html`. Click either button. What happens? Why do you think that is?
 
-  > Answer Here
+  Nothing happens. Probably because the deferred has no direction to travel in the control flow.
 
 6. Let's restore line 9 back to `deferred.resolve()` and save.
 
 7. In `promises.js` in line 13 comment out `return deferred.promise()`. Save your file and refresh your browser at `promises.html`. What's the error message? What line is the error pointing to?
 
-  > Answer Here
+  Cannot read property "then" of undefined. Line 45.
 
 What does `return deferred.promise()` do?
 
-  > Answer Here (hint: literally what it says)
+  it returns the deferred promise to the control flow
 
 ### Part 2: Understanding Promises
 
 1. In `promises.js`, switch lines 46 and 48 (`animateBox2` and `animateBox3`). What do you think will happen? Save your file, and refresh your browser. Click button 1. What happens? Is it what you thought?
 
-  > Answer Here
+  Box 3 went before box 2, yes it is what i thought would happen.
 
 2. In `promises.js`, line 56, remove `, animateBox3()`. What do you think this will do? Save your file and refresh your browser. Click button 2. What happens? What does `$.when()` seem to do?
 
-  > Answer Here
+  box 3 didnt animate. when seems to set up a function to run.
 
 3. Modify the function inside `.then()` on lines 57-58 so that the 3rd box will animate AFTER the first two finishes animating. Remove the alert.
 
 4. In lines 45-49, change all the `.then` to `.done`. Save your file, and refresh the browser. Click button 1. What happens?
 
-  > Answer Here
+ One animates, all three alerts happen, and the other two are done with their animations by the time the alerts have passed.
 
 ### Part 3: Your Turn!
 

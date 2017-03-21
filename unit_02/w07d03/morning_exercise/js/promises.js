@@ -43,9 +43,9 @@ $(document).ready(function(){
   $(".button1").click(function(){
     animateBox()
     .then(executeAfterAnimation)
-    .then(animateBox2)
-    .then(executeAfterAnimation)
     .then(animateBox3)
+    .then(executeAfterAnimation)
+    .then(animateBox2)
     .then(executeAfterAnimation)
     .catch(somethingWentWrong);
   });
@@ -54,9 +54,9 @@ $(document).ready(function(){
   //when all 3 functions are done, then alert Cool!
   //.then() takes two callback functions as arguments: doneCallback, failCallback
   $(".button2").click(function(){
-    $.when(animateBox(), animateBox2(), animateBox3())
+    $.when(animateBox(), animateBox2())
     .then(function(){
-      alert("Cool!");
+      animateBox3()
     }, function(err){
       console.log(err);
     });
