@@ -30,7 +30,46 @@ entities/abstractions (e.g. Senior Paws app, above) that the app might use, and 
 This app provides easy access to all your e-mail service providers in one app. The app will let you select one of your email addresses and view your e-mails for that address.
 
 ```
-Write your answer here or in a separate js file.
+User: ID, Name, Age, Address, Email providers
+Email Providers: ID, Name, users
+
+var user = {
+	id: Number,
+	name: String,
+	address: String,
+	emailProviders: []
+};
+var emailProvider = {
+	id: Number,
+	name: String,
+	users: []
+};
+var exampleUser = {
+	id: 1,
+	name: "Stephen Colbert",
+	address: "1234 Really Nice House Dr",
+	emailProviders: [{
+	id: 1,
+	name: "Yahoo"
+	},{
+	id: 506,
+	name: "BitMail"
+	}]
+};
+var exampleEmailProvider = {
+	id: 65,
+	name: "Hotmail",
+	users: [{
+	id: 453,
+	name: "George Castanza",
+	address: "5678 Stuff Place",
+	},{
+	id:.....
+	.....
+	....
+
+	},......]
+};
 ```
 
 ### 2. Radio on the Internet app
@@ -39,7 +78,48 @@ This app hosts a ton of radio stations, each featuring their own playlists of so
 
 
 ```
-Write your answer here or in a separate js file.
+user: id, name, password, radiostations
+radio station: id, name, genre, popularity, playlists
+playlist: id, name, songs
+songs: id, name, artist, album
+
+var user = {
+	id: Number,
+	name: String,
+	password: String
+};
+var radioStation = {
+	id: Number,
+	name: String,
+	genre: String,
+	popularity: Number,
+	playlists: [{
+	id: Number,
+	name: String,
+	songs: [{
+	id: Number,
+	name: String,
+	artist: String,
+	album: String
+	}, {.....}.....]
+},{....}.....]
+};
+var playlist = {
+	id: Number,
+	name: String,
+	songs: [{
+	id: Number,
+	name: String,
+	artist: String,
+	album: String
+	}, {.....}.....]
+};
+var song = {
+	id: Number,
+	name: String,
+	artist: String,
+	album: String
+};
 ```
 
 ### 3. Rock Concert App
@@ -47,19 +127,80 @@ Write your answer here or in a separate js file.
 This app will be a tool for managing all of your favorite bands' concerts; it will keep track of their tour dates, ticket purchasing, and next recommended show.
 
 ```
-Write your answer here or in a separate js file.
+user: id, name, password, address, email, bands, recommended show(based on highest genre of users bands, address, and closest tour date)
+band: tour venues, genre
+tour venues: location, show dates, ticket seller
+
+var user: {
+	id: Number,
+	name: String,
+	password: String,
+	address: String,
+	email: String,
+	bands: [],
+	recommended show: String
+};
+var band = {
+	tour venues: [];
+	genre: String
+};
+var tourVenues = {
+	location: String,
+	showDates: {},
+	ticketSeller: String
+};
 ```
 
 ### 4. Coffee To-Go App
 
 This app will allow customers to browse a list of coffeeshops nearby, order drinks off of their menu, add those drinks to a shopping cart, and save that cart as a past order once the purchase is complete.
 
+```
+user: id, name, email, location, shopping cart, past orders
+coffeeshop: id, name, address, menu
+
+var user = {
+	id: Number,
+	name: String,
+	email: String,
+	location: String,
+	shoppingCart: [],
+	pastOrders: {}
+};
+var coffeeShop = {
+	id: Number,
+	name: String,
+	address: String,
+	menu: {}
+};
+```
+
 ### 5. Team Tracker App
 
 This app shows you all the latest stats from your favorite sports teams. You can view individual player stats and full team stats.
 
 ```
-Write your answer here or in a separate js file.
+user: id, name, email
+team: id, name, location, players
+player: id, name, team, stats
+
+var user = {
+	id: Number,
+	name: String,
+	email: String
+};
+var team = {
+	id: Number,
+	name: String,
+	location: String,
+	players: {}
+};
+var player = {
+	id: Number,
+	name: String,
+	team: String,
+	stats: {}
+};
 ```
 
 
@@ -68,7 +209,7 @@ Write your answer here or in a separate js file.
 Q. When you were creating relationships between the models, what were some thoughts or questions you had to help guide a connection between them?
 
 ```
-Write your answer here or in a separate js file.
+What information do they share with each other.
 ```
 
 ### Reading and Videos for Tomorrow
