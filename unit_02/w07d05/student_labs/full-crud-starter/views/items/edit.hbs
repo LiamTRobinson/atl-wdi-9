@@ -1,0 +1,14 @@
+<h1>Edit Item</h1>
+<form action="/users/{{user}}/items/{{item.id}}/edit?_method=PATCH" method="POST">
+	<div>
+		<label for="name">Name: </label>
+		<input type="text" name="name" value="{{item.name}}">
+	</div>
+	<div>
+		<label for="in_progress">In Progress? (true/false): </label>
+		<input type="text" name="in_progress" value="{{item.in_progress}}">
+	</div>
+	<div>
+		<input type="submit" value="Update Item">
+	</div>
+</form>

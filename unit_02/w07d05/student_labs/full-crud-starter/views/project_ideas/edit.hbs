@@ -1,0 +1,14 @@
+<h1>Edit Project Idea</h1>
+<form action="/project_ideas/{{user}}/{{project.id}}/edit?_method=PATCH" method="POST">
+	<div>
+		<label for="description">Description: </label>
+		<input type="text" name="description" value="{{project.description}}">
+	</div>
+	<div>
+		<label for="in_progress">In progress? (true/false): </label>
+		<input type="text" name="in_progress" value="{{project.in_progress}}">
+	</div>
+	<div>
+		<input type="submit" value="Save Changes">
+	</div>
+</form>

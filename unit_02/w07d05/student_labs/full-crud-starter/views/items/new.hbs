@@ -1,0 +1,15 @@
+<h1>Make a New Item for {{user.first_name}}</h1>
+
+<form action="/users/{{user.id}}/items" method="POST">
+	<div>
+		<label for="name">Name of Item: </label>
+		<input type="text" name="name">
+	</div>
+	<div>
+		<label for="in_progress">In progress? (true/false): </label>
+		<input type="text" name="in_progress">
+	</div>
+	<div>
+		<input type="submit" value="Add New Item">
+	</div>
+</form>

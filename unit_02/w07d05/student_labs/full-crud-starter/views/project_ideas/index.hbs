@@ -1,0 +1,15 @@
+<a href="/users/{{user.id}}/">{{user.first_name}}</a>
+<h1>{{user.first_name}}'s Project Ideas</h1>
+<a href="/project_ideas/{{user.id}}/new">New Project</a>
+<ol>
+	{{#each user.project_ideas}}
+		<li><a href="/project_ideas/{{../user.id}}/{{this.id}}/edit">{{this.description}}</a></li>
+		<ul>
+			<li>In Progress: {{this.in_progress}}</li>
+		</ul>
+		<form action="/project_ideas/{{../user.id}}/{{this.id}}?_method=DELETE" method="POST">
+			<input type="submit" value="Delete Project">
+		</form>
+		<br>
+	{{/each}}
+</ol>

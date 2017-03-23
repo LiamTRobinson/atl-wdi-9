@@ -1,0 +1,15 @@
+<h1>{{user.first_name}}'s New Project</h1>
+
+<form action="/project_ideas/{{user.id}}/new" method="POST">
+	<div>
+		<label for="description">Description: </label>
+		<input type="text" name="description">
+	</div>
+	<div>
+		<label for="in_progress">In Progress? (true/false): </label>
+		<input type="text" name="in_progress">
+	</div>
+	<div>
+		<input type="submit" value="Create New Project">
+	</div>
+</form>
