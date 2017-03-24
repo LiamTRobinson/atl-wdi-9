@@ -6,6 +6,8 @@
 		<li><a href="/users/{{../user.id}}/items/{{this.id}}/edit">{{this.name}}</a></li>
 		<ul>
 			<li>In Progress: {{this.in_progress}}</li>
+			<li>Created At: {{this.created_at}}</li>
+			<li>Last Updated At: {{this.updated_at}}</li>
 		</ul>
 		<div>
 			<form action="/users/{{../user.id}}/items/{{this.id}}?_method=DELETE" method="POST">

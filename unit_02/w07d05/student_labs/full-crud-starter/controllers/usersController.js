@@ -98,6 +98,7 @@ router.get("/:userId/items/:id/edit", function(req, res) {
   Item.findById(req.params.id)
     .exec(function(err, item) {
       if (err) { console.log(err); }
+      console.log(item);
       res.render("items/edit", {
         user: req.params.userId,
         item: item

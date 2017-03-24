@@ -65,7 +65,7 @@ items.forEach(function(item, i){
   item.save(function(err) {
     if(err) { console.log(err); }
 
-    console.log(item1);
+    console.log(item);
   });
 });
 

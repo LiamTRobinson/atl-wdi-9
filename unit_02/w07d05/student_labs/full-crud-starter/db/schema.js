@@ -11,11 +11,30 @@ var ProjectIdeaSchema = new Schema({
   created_at: Date
 });
 
+
+ProjectIdeaSchema.pre('save', function(next){
+  now = new Date();
+  this.updated_at = now;
+  if ( !this.created_at ) {
+    this.created_at = now;
+  }
+  next();
+});
+
 var ItemSchema = new Schema({
   name: String,
   in_progress: Boolean,
   updated_at: Date,
   created_at: Date
+});
+
+ItemSchema.pre('save', function(next){
+  now = new Date();
+  this.updated_at = now;
+  if ( !this.created_at ) {
+    this.created_at = now;
+  }
+  next();
 });
 
 var UserSchema = new Schema({
@@ -29,24 +48,6 @@ var UserSchema = new Schema({
 });
 
 UserSchema.pre('save', function(next){
-  now = new Date();
-  this.updated_at = now;
-  if ( !this.created_at ) {
-    this.created_at = now;
-  }
-  next();
-});
-
-ItemSchema.pre('save', function(next){
-  now = new Date();
-  this.updated_at = now;
-  if ( !this.created_at ) {
-    this.created_at = now;
-  }
-  next();
-});
-
-ProjectIdeaSchema.pre('save', function(next){
   now = new Date();
   this.updated_at = now;
   if ( !this.created_at ) {
