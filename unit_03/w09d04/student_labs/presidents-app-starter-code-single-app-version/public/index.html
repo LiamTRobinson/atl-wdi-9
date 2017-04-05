@@ -15,7 +15,24 @@
 
       <ul id="presidents">
         <li ng-repeat="president in presidents.all">
-          <strong>{{president.name}}</strong> <em>({{president.start}} - {{president.end}})</em>
+          <strong ng-hide="presidents.editView[$index]">{{president.name}}</strong> <em ng-hide="presidents.editView[$index]">({{president.start}} - {{president.end}})</em> <a href="#" ng-click="presidents.deletePresident($index)" ng-hide="presidents.editView[$index]">DELETE</a>  <a href="#" ng-click="presidents.displayEditView($index)" ng-hide="presidents.editView[$index]">EDIT</a>
+            <form ng-submit="presidents.updatePresident($index)" ng-show="presidents.editView[$index]">
+              <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" ng-model="president.name">
+              </div>
+              <div>
+                <label for="start">Starting Year</label>
+                <input type="text" name="start" ng-model='president.start'>
+              </div>
+              <div>
+                <label for="end">Ending Year</label>
+                <input type="text" name="end" ng-model='president.end'>
+              </div>
+              <div>
+                <input type="submit" value="SAVE">
+              </div>
+          </form>
         </li>
       </ul>
 
@@ -39,6 +56,10 @@
           <input type="submit" value="Add President">
         </div>
       </form>
+
+      <div id="loading-modal" ng-show="presidents.isLoadingAll">
+        <span>LOADING...</span>
+      </div>
 
     </section>
 

@@ -11,7 +11,7 @@ var authHelpers = require('../helpers/auth.js');
 //======================
 // CREATE
 //======================
-//create a POST "/" route that saves the list item to the logged in user
+//create a POST "/" route that saves the list item to the logged in user. ".create()"
 router.post("/", function(req, res) {
 	User.findById(req.params.userId)
 		.exec(function(err, user) {

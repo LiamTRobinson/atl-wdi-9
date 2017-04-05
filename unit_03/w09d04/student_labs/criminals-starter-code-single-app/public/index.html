@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- ADD ng-app to the html tag -->
-<html>
+<html ng-app="InfamousCriminals">
 <head>
   <meta charset="UTF-8">
   <title>Infamous Criminals</title>
@@ -15,31 +15,51 @@
   <h1>Infamous Criminals</h1>
 
 <!-- ADD ng-controller to the section tag -->
-  <section>
+  <section ng-controller="CriminalsController as criminalsCtrl">
 
   <!-- FILL IN THE BLANKS! -->
     <ul id="criminals">
-      <li ng-repeat="" data-id="">
-        <strong>{{}}</strong> <em>{{}}</em> <span class='status {{}}'>{{}}</span>
-        <button class='delete' ng-click="">X</button>
+      <li ng-repeat="criminal in criminalsCtrl.all" data-id="">
+        <strong>{{criminal.name}}</strong> 
+
+        <a href="#" ng-click="criminalsCtrl.displayEditLocationView($index)" ng-hide="criminalsCtrl.editLocationView[$index]"><em>{{criminal.location}}</em></a>
+
+        <form ng-submit="criminalsCtrl.updateCriminal($index)" ng-show="criminalsCtrl.editLocationView[$index]">
+          <input type="text" ng-model="criminal.location">
+          <input type="submit" value="SAVE" ng-click="criminalsCtrl.displayEditLocationView($index)">
+        </form>
+
+        <a href="#"><span class='status {{criminal.status}}' ng-click="criminalsCtrl.displayEditStatusView($index)" ng-hide="criminalsCtrl.editStatusView[$index]">{{criminal.status}}</span></a>
+
+        <form ng-submit="criminalsCtrl.updateCriminal($index)" ng-show="criminalsCtrl.editStatusView[$index]">
+          <select id="editCriminal-status" ng-model="criminal.status">
+            <option value="" disabled>- - Please Select One - -</option>
+            <option value="Alive">Alive</option>
+            <option value="Dead">Dead</option>
+            <option value="Unknown" selected>Unknown</option>
+          </select>
+          <input type="submit" value="SAVE" ng-click="criminalsCtrl.displayEditStatusView($index)">
+        </form>
+
+        <button class='delete' ng-click="criminalsCtrl.deleteCriminal($index)">X</button>
       </li>
     </ul>
 
 <!-- ADD ng-submit to the form -->
-    <form>
+    <form ng-submit="criminalsCtrl.addCriminal()">
       <div>
         <label for="newCriminal-name">Name:</label>
-        <input type="text" id="newCriminal-name" ng-model="criminals.newCriminal.name" placeholder="Prof. Moriarty">
+        <input type="text" id="newCriminal-name" ng-model="criminalsCtrl.newCriminal.name" placeholder="Prof. Moriarty">
       </div>
       <div>
         <label for="newCriminal-location">Location:</label>
-        <input type="text" id="newCriminal-location" ng-model="criminals.newCriminal.location" placeholder="Reichenbach Falls, CH">
+        <input type="text" id="newCriminal-location" ng-model="criminalsCtrl.newCriminal.location" placeholder="Reichenbach Falls, CH">
       </div>
       <div>
         <label for="newCriminal-status">Status:</label>
 
 <!-- ADD ng-model to the select tag -->
-        <select id="newCriminal-status">
+        <select id="newCriminal-status" ng-model="criminalsCtrl.newCriminal.status">
           <option value="" disabled>- - Please Select One - -</option>
           <option value="Alive">Alive</option>
           <option value="Dead">Dead</option>

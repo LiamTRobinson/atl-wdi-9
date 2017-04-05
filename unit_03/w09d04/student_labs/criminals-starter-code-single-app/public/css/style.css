@@ -69,10 +69,10 @@ span.status {
   margin-right: 0.618em;
 }
 
-span.status.dead {
+span.status.Dead {
   background: red;
 }
-span.status.alive {
+span.status.Alive {
   background: green;
 }
 

@@ -3,13 +3,14 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 var app = express();
 
-var mongoose = require('mongoose');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
+var mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost:27017/infamous-masterminds');
 
 app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
 

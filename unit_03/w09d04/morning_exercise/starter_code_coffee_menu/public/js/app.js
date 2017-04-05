@@ -1,3 +1,19 @@
+angular.module("coffeeApp", []);
+angular.module("coffeeApp")
+  .controller("MenuController", MenuController);
+
+function MenuController() {
+  var vm = this;
+  vm.menu = menuList;
+  vm.currentItem = {};
+  vm.showItem = function(index) {
+    vm.currentItem.name = vm.menu[index].name;
+    vm.currentItem.price = vm.menu[index].price;
+    vm.currentItem.image = vm.menu[index].img;
+  }
+};
+
+
 var menuList = [
   {
     name: "Plain Ole Coffee",

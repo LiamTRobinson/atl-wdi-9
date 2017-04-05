@@ -20,7 +20,7 @@ router.post('/', function createAction(request, response) {
 
   var criminal = new Criminal(request.body);
 
-  criminal.save(function(error) {
+  criminal.save(function(error, criminal) {
     if(error) response.json({messsage: 'Could not ceate criminal b/c:' + error});
 
     response.json({criminal: criminal});

@@ -5,9 +5,39 @@
     <title></title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular.min.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/todosController.js"></script>
+    <!--<script src="js/todosController.js"></script>-->
   </head>
   <body>
-    {{'I ' + 'am ' + 'a ' + 'working ' + 'Angular.js ' + 'app!' }}
+    <div ng-controller="ProductsController as productsCtrl">
+      <div ng-controller="CategoriesController as catCtrl">
+        <h1>Displaying {{productsCtrl.products.length}} products across {{catCtrl.productCategories.length}}</h1>
+        <ol>
+          <li ng-repeat="cat in catCtrl.productCategories">{{cat}}</li>
+        </ol>
+      </div>
+      <div ng-repeat="product in productsCtrl.products | orderBy: '-price'">
+        <ul>
+          <li>Product Name: {{product.name}}</li>
+          <li>Price: {{product.price | currency}}</li>
+          <li>Date Added: {{product.dateAdded | date: MM/dd/yyyy}}</li>
+        </ul>
+      </div>
+      <div>
+        <h3>New Product:</h3>
+        <form ng-submit="productsCtrl.addProduct()">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" ng-model="productsCtrl.newProduct.name">
+          </div>
+          <div>
+            <label for="price">Price:</label>
+            <input type="text" name="price" ng-model="productsCtrl.newProduct.price">
+          </div>
+          <div>
+            <input type="submit" value="Add New Product">
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

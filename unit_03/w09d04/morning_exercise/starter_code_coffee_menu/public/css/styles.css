@@ -1,0 +1,11 @@
+#current-item {
+	float: right;
+	max-width: 40%;
+	display: inline-block;
+}
+
+#menu {
+	display: inline-block;
+	max-width: 40%;
+	float: left;
+}

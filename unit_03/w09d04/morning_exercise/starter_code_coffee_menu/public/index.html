@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="coffeeApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Ye Old Coffee Shop</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/ratingsController.js"></script>
+  </head>
+  <body>
+    <h1>Coffee Shop Stuff</h1>
+    <div ng-controller="MenuController as menuCtrl">
+    	<ul id="menu">
+    		<li ng-repeat="item in menuCtrl.menu">
+    			<a href="#" ng-click="menuCtrl.showItem($index)">{{item.name}}</a>
+    			<ul>
+    				<li>
+    					{{item.price | currency}}
+  					</li>
+  				</ul>
+    		</li>
+    	</ul>
+      <div id="current-item">
+        <h1>{{menuCtrl.currentItem.name}}</h1>
+        <h3>{{menuCtrl.currentItem.price}}</h3>
+        <img ng-src="{{menuCtrl.currentItem.image}}">
+      </div>
+    </div>
+  </body>
+</html>
